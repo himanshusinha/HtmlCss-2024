@@ -1,0 +1,130 @@
+/* *{
+  border-top: 10px solid #1098ad;
+} */
+body{
+  color:#444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+}
+
+h1{
+  color:#1098ad; 
+  font-size: 30px;
+  font-style: italic;
+}
+h2{
+  font-size: 40px;
+  color: #1098ad;
+ }
+h3{
+  font-size: 30px;
+   color:#1098ad
+ }
+h4{
+  font-size: 28px;
+   text-align: center;
+   color:#1098ad;
+}
+p{
+ font-size: 22px; 
+  line-height: 1.5;
+}
+li{
+  font-size: 22px;
+ }
+ 
+ header p {
+  font-style: italic;
+ }
+ header a {
+  font-size: 25px;
+ }
+ /* article header p {
+   font-style: italic;
+ } */
+ #author{
+  font-style: italic;
+ }
+ #copyright{
+  font-size: 16px;
+ }
+ .related-author{
+  font-size: 18px;
+  font-weight: bold;
+  }
+ /* ul{
+  list-style: none;
+ } */
+ 
+ .related{
+  list-style: none;
+  border-top-width: 10px;
+  border-top-color: #1098ad;
+  border-top-style: solid;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: #109ead;
+  background-color: #f7f7f7;
+ }
+ 
+ body{
+  background-color: #ffff;
+ }
+ 
+ li:first-child{
+  font-weight: bold;
+ }
+ li:last-child{
+  font-style: italic;
+ }
+ li:nth-child(even){
+  color:#444
+ }
+ li:nth-child(odd){
+  color:#444
+ }
+article p:last-child {
+  color:  #444;
+}
+a:link{
+  color:#1098ad;
+  text-decoration:none
+}
+a:visited{
+  color:#1098ad
+}
+a:active{
+  color:  #1098ad; 
+  background-color: black;
+}
+a:hover{
+  color:orangered;
+  font-weight: bold;
+  text-decoration: underline;
+}
+a{
+  color:red
+}
+/* Resolving Conflicts */
+/* #copyright{
+  color:red;
+  font-size:24px;
+}
+.copyright{
+  color:blue;
+}
+.text{
+  color:yellow;
+}
+footer p {
+  color:green;
+  font-size:22px;
+} */
+
+nav a:link {
+  font-size: 22px;
+}
+nav p {
+  font-size: 22px;
+  font-style: normal;
+}
